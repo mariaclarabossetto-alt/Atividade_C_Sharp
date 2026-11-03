@@ -41,9 +41,19 @@
 
 
 // Exercício 4 — Calculadora com métodos
+Console.WriteLine("------ Somar -----");
+Console.Write("Valor A: ");
+string? A = Console.ReadLine();
+decimal a = decimal.Parse(A);
 
+Console.Write("Valor B: ");
+string? B = Console.ReadLine();
+decimal b = decimal.Parse(B);
 
-static int Somar(int a, int b)
+decimal resultadoSoma = Somar(a,b);
+Console.WriteLine(resultadoSoma);
+
+static decimal Somar(decimal a, decimal b)
 {
     return a + b;
 }
