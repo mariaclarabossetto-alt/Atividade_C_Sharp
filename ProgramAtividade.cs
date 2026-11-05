@@ -51,6 +51,34 @@
 // Exercício 3 — Adivinhe o número
 
 
+// int numeroSecreto = 67;
+// int tentativa = 0;
+// int quantidadeTentativas = 0;
+
+// Console.WriteLine("\n--- Jogo da Adivinhação ---\n");
+// Console.WriteLine("Tente adivinhar o número secreto!");
+
+// while (tentativa != numeroSecreto)
+// {
+//     Console.Write("\nDigite o seu palpite: ");
+//     tentativa = Convert.ToInt32(Console.ReadLine());
+//     quantidadeTentativas++;
+
+//     if (tentativa < numeroSecreto)
+//     {
+//         Console.WriteLine("O número secreto é MAIOR.");
+//     }
+//     else if (tentativa > numeroSecreto)
+//     {
+//         Console.WriteLine("O número secreto é MENOR.");
+//     }
+// }
+
+
+// Console.WriteLine("\n Parabéns! Você acertou o número!");
+// Console.WriteLine($"Total de tentativas: {quantidadeTentativas}");
+
+
 // // Exercício 4 — Calculadora com métodos
 
 
@@ -119,4 +147,24 @@
 
 // Console.WriteLine("\n--- Resultado Final ---");
 // Console.WriteLine($"A média do aluno é: {media}");
+
+
+//// Exercício 6 — Lista de produtos
+
+
+// List<string> nomes = new List<string>();
+
+// Console.WriteLine("\n--- Cadastro de Produtos ---\n");
+
+// Console.Write("Digite o nome do 1º produto: ");
+// nomes.Add(Console.ReadLine());
+
+// Console.Write("Digite o nome do 2º produto: ");
+// nomes.Add(Console.ReadLine());
+
+// Console.Write("Digite o nome do 3º produto: ");
+// nomes.Add(Console.ReadLine());
+
+// Console.WriteLine("\n--- Produtos Cadastrados ---\n");
+// Console.WriteLine(string.Join("\n", nomes));
 
